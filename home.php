@@ -27,6 +27,7 @@ if(isset($_SESSION['user'])){
     </div>
 
     <div class="dashboard-buttons">
+        <button onclick="location.href='favorite-cars.php'">Checkout Available Cars</button> 
         <button onclick="document.getElementById('updateForm').style.display='block'">Update My Profile</button>
         <button onclick="openModal()">See My Profile</button>
         <button onclick="confirmDelete()">Delete My Profile</button>
